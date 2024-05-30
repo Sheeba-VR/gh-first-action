@@ -8,3 +8,10 @@ jobs:
         run: echo "Hello World"
       - name: print goodbye
         run: echo "Done - bye"
+  second-job:
+    runs-on: ubuntu-latest
+    steps: 
+      - name: print Hello All
+        run: echo "All"
+      - name: print How r u
+        run: echo "How are you"
